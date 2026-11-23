@@ -1,0 +1,24 @@
+# Ported from the Tupperware Dark Zed theme.
+background = #121418
+foreground = #d0d4dc
+cursor-color = #7bd6dc
+cursor-text = #121418
+selection-background = #2b4247
+selection-foreground = #d0d4dc
+
+palette = 0=#121418
+palette = 1=#f03d0e
+palette = 2=#00c45b
+palette = 3=#f2c200
+palette = 4=#476bff
+palette = 5=#ba5aed
+palette = 6=#7bd6dc
+palette = 7=#d0d4dc
+palette = 8=#929aa8
+palette = 9=#ffd4c4
+palette = 10=#e5ffe4
+palette = 11=#fff3b8
+palette = 12=#d9e6ff
+palette = 13=#edd4ff
+palette = 14=#dcf3fa
+palette = 15=#ffffff

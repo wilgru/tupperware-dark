@@ -1,0 +1,24 @@
+diff --git a/languages/swift/highlights.scm b/languages/swift/highlights.scm
+--- a/languages/swift/highlights.scm
++++ b/languages/swift/highlights.scm
+@@ -16,16 +16,18 @@
+ ] @punctuation.bracket ; TODO: "\\(" ")" in interpolations should be @punctuation.special
+ 
+ ; Identifiers
+-(attribute) @variable
+-
+ (type_identifier) @type
+ 
+ (self_expression) @variable.builtin
+ 
+ (user_type
+   (type_identifier) @variable.builtin
+   (#eq? @variable.builtin "Self"))
+ 
++(attribute
++  "@" @variable.attribute.swift
++  (user_type (type_identifier) @variable.attribute.swift))
++
+ ; Declarations
+ "func" @keyword.function
+ 
