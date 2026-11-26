@@ -1,6 +1,6 @@
 # Tupperware Dark
 
-A dark theme for Zed and Ghostty inspired by the Tupperware brand palette. The Zed theme started from Ayu Dark.
+A dark theme for Zed, Ghostty, and Omarchy inspired by the Tupperware brand palette. The Zed theme started from Ayu Dark.
 
 ## Zed
 
@@ -23,3 +23,15 @@ Restart Zed afterward. Skip this step if the patch is already applied. Swift ext
 ## Ghostty
 
 Copy [`ghostty/Tupperware Dark`](ghostty/Tupperware%20Dark) to `~/.config/ghostty/themes/`, then set `theme = Tupperware Dark` in your Ghostty config and reload it.
+
+## Omarchy
+
+From this repository on your Omarchy machine, copy the [theme folder](omarchy/tupperware-dark/) and activate it:
+
+```sh
+mkdir -p "$HOME/.config/omarchy/themes/tupperware-dark"
+cp omarchy/tupperware-dark/colors.toml "$HOME/.config/omarchy/themes/tupperware-dark/"
+omarchy theme set tupperware-dark
+```
+
+On Omarchy 3, use `omarchy-theme-set tupperware-dark` if `omarchy theme set` is unavailable.

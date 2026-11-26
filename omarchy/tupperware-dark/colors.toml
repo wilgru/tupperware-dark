@@ -1,0 +1,33 @@
+mode = "dark"
+
+accent = "#7bd6dc"
+cursor = "#7bd6dc" # Omarchy 3; newer versions use the bright foreground.
+background = "#121418"
+foreground = "#d0d4dc"
+selection_background = "#2b4247"
+selection_foreground = "#d0d4dc"
+
+# Additional desktop shades from the Zed theme.
+lighter_background = "#1b1e24"
+dark_foreground = "#697280"
+light_foreground = "#e7e9ef"
+orange = "#ff7500"
+brown = "#613400"
+
+# Match the standalone Ghostty palette. Numbered keys also work on Omarchy 3.
+color0 = "#121418"
+color1 = "#f03d0e"
+color2 = "#00c45b"
+color3 = "#f2c200"
+color4 = "#476bff"
+color5 = "#ba5aed"
+color6 = "#7bd6dc"
+color7 = "#d0d4dc"
+color8 = "#929aa8"
+color9 = "#ffd4c4"
+color10 = "#e5ffe4"
+color11 = "#fff3b8"
+color12 = "#d9e6ff"
+color13 = "#edd4ff"
+color14 = "#dcf3fa"
+color15 = "#ffffff"
